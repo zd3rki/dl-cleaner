@@ -113,7 +113,7 @@ def main():
     if conf == "y":
         tridicka()
 
-        print(Fore.LIGHTGREEN_EX + "DONE! All files should have been moved\nExiting in 5s")
+        print(Fore.LIGHTGREEN_EX + "DONE! All files were moved.\nExiting in 5s")
         time.sleep(5)
         sys.exit()
 
